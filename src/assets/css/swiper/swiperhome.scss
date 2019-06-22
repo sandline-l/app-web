@@ -2,13 +2,26 @@
 
 .swiper{
     background-color: #0ff;
+    height: 490px;
 
     .el-carousel{
         overflow: hidden;
-        .el-carousel__item{
-            height: 400px;
-    
+        height: 490px;
+
+        .el-carousel__container{
+            height: 490px;
+
+            .el-carousel__item{
+                height: 490px;
+                img{
+                    width: 100%;
+                }
+            }
+            button{
+                margin-top: 140px;
+            }
         }
+       
     }
     
 }
