@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import Login from './views/login.vue'
+import Regist from './views/regist.vue'
+import defaultPage from './views/defaultPage.vue'
 
 Vue.use(Router)
 
@@ -10,8 +13,26 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'defaultPage',
+      component: defaultPage,
+      redirect:'/home',
+      children:[
+        {
+          path:'/home',
+          name:'Home',
+          component:Home
+        }
+      ]
+    },
+    {
+      path:'/login',
+      name:'login',
+      component:Login
+    },
+    {
+      path:'/regist',
+      name:'regist',
+      component:Regist
     },
     {
       path: '/about',

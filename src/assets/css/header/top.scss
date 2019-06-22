@@ -1,0 +1,28 @@
+
+.container{
+    background-color: #e3e4e5;
+}
+.content{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 12px;
+    text-align: center;
+   .left{
+       float: left;
+       .home{
+           display: inline-block;
+            padding: 0 20px;
+       }
+       .place{
+           display: inline-block;
+           padding: 0 20px;
+       }
+   }
+   .right{
+       float: right;
+   }
+}
+
+

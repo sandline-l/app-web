@@ -1,0 +1,25 @@
+
+
+
+.footer-nav{
+    display: flex;
+    dl{
+        flex: 1;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 20px;
+        dt{
+            font-weight: bold;
+            font-size: 16px;
+            padding: 15px 0;
+        }
+        dd{
+            font-size: 14px;
+            padding: 5px 0;
+
+        }
+        dd:hover a{
+            color: #f40;
+        }
+    }
+}

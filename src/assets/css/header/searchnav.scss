@@ -1,0 +1,44 @@
+
+
+.searchnav-box{
+    .searchnav{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+        height: 42px;
+        ul{
+            float: left;
+            li{
+                text-align: center;
+                display: inline-block;
+                width: 65px;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 5px;
+                border-bottom: 2px solid transparent;
+            }
+            li:hover{
+                a{
+                    color: #f00;
+                }
+                border-bottom: 2px solid red;
+            }
+        }
+        div.user{
+            float: right;
+            margin-right: 100px;
+            height: 40px;
+            line-height: 40px;
+            a{
+                display: inline-block;
+                width: 65px;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 10px;
+            }
+            a:hover{
+                color: #f00;
+            }
+        }
+    }
+}

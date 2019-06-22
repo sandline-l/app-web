@@ -1,0 +1,66 @@
+.right{
+    ul{
+        li{
+            float: left;
+            // width: 100px;
+            height: 50px;
+            position: relative;
+            a{
+                padding: 0 5px;
+                border-right: 1px solid #000;
+            }
+            ul{
+                display: none;
+                width: 200px;
+                position: absolute;
+                background-color: #fff;
+                li{
+                    width: 100px;
+                    height: 30px;
+                    line-height: 30px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        li:hover>ul{
+            display: block;
+        }
+        li:last-of-type a{
+            border: none;
+        }
+        .login{
+            width: 135px;
+            .zhuce{
+                border-right: 1px solid #000;
+                // padding: 0 10px;
+            }
+        }
+        // .baobei{
+        //     ul{
+        //         display: flex;
+        //         flex-wrap: wrap;
+        //         width: 200px;
+        //         border: 1px solid black;
+        //         li{
+        //             width: 100px;
+        //             height: 30px;
+        //             line-height: 30px;
+        //             box-sizing: border-box;
+        //         }
+        //     }
+        // }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
