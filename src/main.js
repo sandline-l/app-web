@@ -1,9 +1,14 @@
 import Vue from 'vue'
 
+import jquery from 'jquery'
+
 // 引入重置样式
 import '@/assets/css/reset.css'; 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+
+
+
 
 import App from './App.vue'
 import router from './router'

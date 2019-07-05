@@ -42,7 +42,7 @@
 export default {};
 </script>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 
  @import '@/assets/css/header/searchnav.scss';
 </style>

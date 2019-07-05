@@ -2,8 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Login from './views/login.vue'
+import zhuce from './views/zhuce.vue'
 import Regist from './views/regist.vue'
 import defaultPage from './views/defaultPage.vue'
+
+import movie from './components/testhtml/movie.vue'
+import myslot from './components/testhtml/myslot.vue'
+
 
 Vue.use(Router)
 
@@ -21,18 +26,38 @@ export default new Router({
           path:'/home',
           name:'Home',
           component:Home
-        }
+        },
+        {
+          path:'/login',
+          name:'login',
+          component:Login
+        },
+        {
+          path:'/zhuce',
+          name:'zhuce',
+          component:zhuce
+        },
       ]
     },
-    {
-      path:'/login',
-      name:'login',
-      component:Login
-    },
+    // {
+    //   path:'/login',
+    //   name:'login',
+    //   component:Login
+    // },
     {
       path:'/regist',
       name:'regist',
       component:Regist
+    },
+    {
+      path:'/movie',
+      name:'movie',
+      component:movie
+    },
+    {
+      path:'/myslot',
+      name:'myslot',
+      component:myslot
     },
     {
       path: '/about',

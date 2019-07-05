@@ -28,11 +28,9 @@ export default {
 
 <style lang='scss'>
 .el-container {
-  min-width: 1000px;
+  min-width: 1220px;
   .el-header {
     padding: 0;
-    background-color: #008c8c;
-    // background-color: #e3e4e5;
   }
   .el-main{
     padding: 0;

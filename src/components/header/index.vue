@@ -1,7 +1,7 @@
 <template>
   <div>
     <my-top></my-top>
-    <img src="@/assets/img/1.jpg" alt="广告" class="ad">
+    <img src="../../assets/img/wangjing-1.jpg" alt="广告" class="ad">
     <my-search></my-search>
     <search-nav></search-nav>
   </div>
@@ -27,7 +27,7 @@ export default {
 
   div{
     img.ad{
-      height: 50px;
+      height: 84px;
       width: 100%;
     }
   }
